@@ -12,7 +12,7 @@ const settings = {
   description: 'This is a bot for managing group commands and automating tasks.',
   AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || 'true', // Automatically view WhatsApp statuses
   AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || 'true', // Automatically react to WhatsApp statuses with random emoji
-  SESSION_ID: process.env.SESSION_ID || 'REPLACE_TEXT_WITH_YOUR_SESSION_ID'
+  SESSION_ID: process.env.SESSION_ID || ''
 };
 
 global.SESSION_ID = settings.SESSION_ID;
